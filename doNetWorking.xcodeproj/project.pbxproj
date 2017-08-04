@@ -13,6 +13,10 @@
 		81CB3F2A1F34514100CCC4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CB3F281F34514100CCC4D8 /* Main.storyboard */; };
 		81CB3F2C1F34514100CCC4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CB3F2B1F34514100CCC4D8 /* Assets.xcassets */; };
 		81CB3F2F1F34514100CCC4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CB3F2D1F34514100CCC4D8 /* LaunchScreen.storyboard */; };
+		81CB3F381F3456A500CCC4D8 /* doSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F371F3456A500CCC4D8 /* doSlideView.m */; };
+		81CB3F3B1F3456F800CCC4D8 /* doHttpEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F3A1F3456F800CCC4D8 /* doHttpEngine.m */; };
+		81CB3F3E1F34573B00CCC4D8 /* doBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F3D1F34573B00CCC4D8 /* doBaseAPIManager.m */; };
+		81CB3F441F34624700CCC4D8 /* doSlideViewReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F431F34624700CCC4D8 /* doSlideViewReformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		81CB3F2B1F34514100CCC4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CB3F2E1F34514100CCC4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81CB3F301F34514100CCC4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CB3F361F3456A500CCC4D8 /* doSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSlideView.h; sourceTree = "<group>"; };
+		81CB3F371F3456A500CCC4D8 /* doSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doSlideView.m; sourceTree = "<group>"; };
+		81CB3F391F3456F800CCC4D8 /* doHttpEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doHttpEngine.h; sourceTree = "<group>"; };
+		81CB3F3A1F3456F800CCC4D8 /* doHttpEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doHttpEngine.m; sourceTree = "<group>"; };
+		81CB3F3C1F34573B00CCC4D8 /* doBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doBaseAPIManager.h; sourceTree = "<group>"; };
+		81CB3F3D1F34573B00CCC4D8 /* doBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doBaseAPIManager.m; sourceTree = "<group>"; };
+		81CB3F411F3461E900CCC4D8 /* doSlideViewReformerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSlideViewReformerProtocol.h; sourceTree = "<group>"; };
+		81CB3F421F34624700CCC4D8 /* doSlideViewReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSlideViewReformer.h; sourceTree = "<group>"; };
+		81CB3F431F34624700CCC4D8 /* doSlideViewReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doSlideViewReformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +75,15 @@
 				81CB3F231F34514100CCC4D8 /* AppDelegate.m */,
 				81CB3F251F34514100CCC4D8 /* ViewController.h */,
 				81CB3F261F34514100CCC4D8 /* ViewController.m */,
+				81CB3F411F3461E900CCC4D8 /* doSlideViewReformerProtocol.h */,
+				81CB3F361F3456A500CCC4D8 /* doSlideView.h */,
+				81CB3F371F3456A500CCC4D8 /* doSlideView.m */,
+				81CB3F421F34624700CCC4D8 /* doSlideViewReformer.h */,
+				81CB3F431F34624700CCC4D8 /* doSlideViewReformer.m */,
+				81CB3F391F3456F800CCC4D8 /* doHttpEngine.h */,
+				81CB3F3A1F3456F800CCC4D8 /* doHttpEngine.m */,
+				81CB3F3C1F34573B00CCC4D8 /* doBaseAPIManager.h */,
+				81CB3F3D1F34573B00CCC4D8 /* doBaseAPIManager.m */,
 				81CB3F281F34514100CCC4D8 /* Main.storyboard */,
 				81CB3F2B1F34514100CCC4D8 /* Assets.xcassets */,
 				81CB3F2D1F34514100CCC4D8 /* LaunchScreen.storyboard */,
@@ -105,6 +127,7 @@
 		81CB3F141F34514100CCC4D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = do;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "bj-m-206398a";
 				TargetAttributes = {
@@ -150,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CB3F3B1F3456F800CCC4D8 /* doHttpEngine.m in Sources */,
 				81CB3F271F34514100CCC4D8 /* ViewController.m in Sources */,
+				81CB3F441F34624700CCC4D8 /* doSlideViewReformer.m in Sources */,
 				81CB3F241F34514100CCC4D8 /* AppDelegate.m in Sources */,
 				81CB3F211F34514100CCC4D8 /* main.m in Sources */,
+				81CB3F3E1F34573B00CCC4D8 /* doBaseAPIManager.m in Sources */,
+				81CB3F381F3456A500CCC4D8 /* doSlideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
