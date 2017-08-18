@@ -7,11 +7,24 @@
 //
 
 #import "doSlideViewReformer.h"
+#import <UIKit/UIKit.h>
+
+NSString * const kPropertyListDataKeyID = @"kPropertyListDataKeyID";
+NSString * const kPropertyListDataKeyName = @"kPropertyListDataKeyName";
+NSString * const kPropertyListDataKeyTitle = @"kPropertyListDataKeyTitle";
+NSString * const kPropertyListDataKeyImage = @"kPropertyListDataKeyImage";
 
 @implementation doSlideViewReformer
 -(id)manager:(doBaseAPIManager *)manager reformData:(NSDictionary *)data
 {
-    return nil;
+    NSDictionary *resultData;
+    resultData = @{
+                   kPropertyListDataKeyID:data[@"id"],
+                   kPropertyListDataKeyName:data[@"name"],
+                   kPropertyListDataKeyTitle:data[@"title"],
+                   kPropertyListDataKeyImage:[UIImage imageNamed:data[@"imageUrl"]]
+                   };
+    return resultData;
 }
 - (id)manager:(doBaseAPIManager *)manager failedReform:(NSDictionary *)data
 {

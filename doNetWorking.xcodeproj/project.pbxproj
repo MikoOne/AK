@@ -43,6 +43,7 @@
 		8123FEC51F42DE89007C91E2 /* doCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doCache.m; sourceTree = "<group>"; };
 		819CFB061F467F9D00D90F64 /* doTestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doTestAPIManager.h; sourceTree = "<group>"; };
 		819CFB071F467F9D00D90F64 /* doTestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doTestAPIManager.m; sourceTree = "<group>"; };
+		819CFB0A1F46938A00D90F64 /* doSlideViewReformerKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSlideViewReformerKey.h; sourceTree = "<group>"; };
 		81CB3F1C1F34514100CCC4D8 /* doNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CB3F201F34514100CCC4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81CB3F221F34514100CCC4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -241,6 +242,7 @@
 				81EFE1A31F37FAFE00D15666 /* ViewController.m */,
 				819CFB061F467F9D00D90F64 /* doTestAPIManager.h */,
 				819CFB071F467F9D00D90F64 /* doTestAPIManager.m */,
+				819CFB0A1F46938A00D90F64 /* doSlideViewReformerKey.h */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
