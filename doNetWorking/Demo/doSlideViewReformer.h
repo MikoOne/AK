@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "doReformerProtocol.h"
 
-@interface doSlideViewReformer : NSObject<doReformerProtocol>
+@interface doSlideViewReformer : NSObject<doAPIManagerDataReformer>
 
 @end

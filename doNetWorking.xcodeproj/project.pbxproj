@@ -14,6 +14,7 @@
 		810E106F1F380B5A00F12731 /* doNetworkingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 810E106E1F380B5A00F12731 /* doNetworkingConfigurationManager.m */; };
 		8123FEC31F42DE7E007C91E2 /* doCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123FEC21F42DE7E007C91E2 /* doCacheObject.m */; };
 		8123FEC61F42DE89007C91E2 /* doCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8123FEC51F42DE89007C91E2 /* doCache.m */; };
+		819CFB081F467F9D00D90F64 /* doTestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 819CFB071F467F9D00D90F64 /* doTestAPIManager.m */; };
 		81CB3F211F34514100CCC4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F201F34514100CCC4D8 /* main.m */; };
 		81CB3F241F34514100CCC4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB3F231F34514100CCC4D8 /* AppDelegate.m */; };
 		81CB3F2A1F34514100CCC4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CB3F281F34514100CCC4D8 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		8123FEC21F42DE7E007C91E2 /* doCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doCacheObject.m; sourceTree = "<group>"; };
 		8123FEC41F42DE89007C91E2 /* doCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doCache.h; sourceTree = "<group>"; };
 		8123FEC51F42DE89007C91E2 /* doCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doCache.m; sourceTree = "<group>"; };
+		819CFB061F467F9D00D90F64 /* doTestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doTestAPIManager.h; sourceTree = "<group>"; };
+		819CFB071F467F9D00D90F64 /* doTestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doTestAPIManager.m; sourceTree = "<group>"; };
 		81CB3F1C1F34514100CCC4D8 /* doNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CB3F201F34514100CCC4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81CB3F221F34514100CCC4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -236,6 +239,8 @@
 				81EFE1A11F37FAFE00D15666 /* doSlideViewReformer.m */,
 				81EFE1A21F37FAFE00D15666 /* ViewController.h */,
 				81EFE1A31F37FAFE00D15666 /* ViewController.m */,
+				819CFB061F467F9D00D90F64 /* doTestAPIManager.h */,
+				819CFB071F467F9D00D90F64 /* doTestAPIManager.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -382,6 +387,7 @@
 				810E106F1F380B5A00F12731 /* doNetworkingConfigurationManager.m in Sources */,
 				81EFE19A1F37FA5E00D15666 /* doBaseAPIManager.m in Sources */,
 				810E10651F38008400F12731 /* doRequestGenerator.m in Sources */,
+				819CFB081F467F9D00D90F64 /* doTestAPIManager.m in Sources */,
 				81EFE1A41F37FAFE00D15666 /* doSlideView.m in Sources */,
 				81EFE1A91F37FBB500D15666 /* doURLResponse.m in Sources */,
 				8123FEC61F42DE89007C91E2 /* doCache.m in Sources */,

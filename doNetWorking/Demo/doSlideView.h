@@ -10,6 +10,6 @@
 #import "doReformerProtocol.h"
 
 @interface doSlideView : UIView
-@property (nonatomic,strong) id<doReformerProtocol> reformer;
+@property (nonatomic,strong) id<doAPIManagerDataReformer> reformer;
 - (void)renderViewWithData:(NSDictionary *)data;
 @end

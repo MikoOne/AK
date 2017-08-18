@@ -9,6 +9,14 @@
 #import "doSlideViewReformer.h"
 
 @implementation doSlideViewReformer
+-(id)manager:(doBaseAPIManager *)manager reformData:(NSDictionary *)data
+{
+    return nil;
+}
+- (id)manager:(doBaseAPIManager *)manager failedReform:(NSDictionary *)data
+{
+    return nil;
+}
 //具体view对应的reformer
 - (NSDictionary *)reformDataWithManager:(doBaseAPIManager *)manager
 {

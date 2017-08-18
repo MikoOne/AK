@@ -77,13 +77,7 @@ typedef NS_ENUM (NSUInteger, doAPIManagerErrorType){
 - (void)manager:(doBaseAPIManager *)manager didCallAPIWithParams:(NSDictionary *)params;
 @end
 
-@protocol doAPIManagerDataReformer <NSObject>
-@required
-- (id)manager:(doBaseAPIManager *)manager reformData:(NSDictionary *)data;
-//用于获取服务器返回的错误信息
-@optional
--(id)manager:(doBaseAPIManager *)manager failedReform:(NSDictionary *)data;
-@end
+
 
 @interface doBaseAPIManager : NSObject
 @property (nonatomic,weak) id<doAPIManagerCallBackDelegate> delegate;

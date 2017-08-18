@@ -10,10 +10,11 @@
 #define doReformerProtocol_h
 
 @class doBaseAPIManager;
-@protocol doReformerProtocol <NSObject>
-
+@protocol doAPIManagerDataReformer <NSObject>
+@required
+- (id)manager:(doBaseAPIManager *)manager reformData:(NSDictionary *)data;
+//用于获取服务器返回的错误信息
 @optional
-
-- (NSDictionary *)reformDataWithManager:(doBaseAPIManager *)manager;
+-(id)manager:(doBaseAPIManager *)manager failedReform:(NSDictionary *)data;
 @end
 #endif /* doReformerProtocol_h */
